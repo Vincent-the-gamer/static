@@ -1,5 +1,5 @@
-<p align="center" style="height: 100px;">
-  <img src="./avatars/marie-rose1.jpg"/>
+<p align="center">
+  <img src="./avatars/marie-rose1.jpg" style="height: 90px;"/>
 </p>
 
 <h1 align="center">Static</h1>
