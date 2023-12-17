@@ -1,0 +1,3 @@
+[blackarch]
+SigLevel = Optional TrustAll
+Server = https://mirrors.ustc.edu.cn/blackarch/$repo/os/$arch
