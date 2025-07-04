@@ -18,4 +18,4 @@ And more assets soon...
 
 [MIT License](./LICENSE)
 
-Copyright (c) 2025-present Vincent-the-gamer <https://github.com/Vincent-the-gamer>
+Copyright (c) 2025-present Vincent-the-gamer
