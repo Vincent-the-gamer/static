@@ -16,6 +16,14 @@ The Live2D models is for [live2d-widget](https://github.com/stevenjoezhang/live2
 
 `bash -c "$(curl -fsSL https://static.vince-g.xyz/brew/install-homebrew.sh)"`
 
+To add homebrew to PATH in `fish`:
+
+```shell
+echo >> /home/<username>/.config/fish/config.fish
+echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/<username>/.config/fish/config.fish
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+```
+
 ### For Chinese Users
 
 Change `brew` sources: (brew镜像换源)
