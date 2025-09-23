@@ -19,9 +19,9 @@ The Live2D models is for [live2d-widget](https://github.com/stevenjoezhang/live2
 To add homebrew to PATH in `fish`:
 
 > [!IMPORTANT]
-> on `macOS`, user folder is /Users/<username>
+> on `macOS`, user folder is /Users/{username}
 >
-> on `Linux`, user folder is /home/<username>
+> on `Linux`, user folder is /home/{username}
 
 ```shell
 echo >> /home/<username>/.config/fish/config.fish
