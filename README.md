@@ -20,6 +20,7 @@ To add homebrew to PATH in `fish`:
 
 > [!IMPORTANT]
 > on `macOS`, user folder is /Users/<username>
+>
 > on `Linux`, user folder is /home/<username>
 
 ```shell
