@@ -8,7 +8,7 @@ https://static.vince-g.xyz/
 
 ## Live2D Models
 
-The Live2D models is for [live2d-widget](https://github.com/stevenjoezhang/live2d-widget) or [PPet](https://github.com/zenghongtu/PPet) use, you can import model by add model json links like:
+The Live2D models is for [live2d-widget](https://github.com/stevenjoezhang/live2d-widget) or [PPet](https://github.com/zenghongtu/PPet) use, you can import model by adding model json links like:
 
 `https://static.vince-g.xyz/live2d-models/moc/22/model.json`
 
@@ -17,6 +17,10 @@ The Live2D models is for [live2d-widget](https://github.com/stevenjoezhang/live2
 `bash -c "$(curl -fsSL https://static.vince-g.xyz/brew/install-homebrew.sh)"`
 
 To add homebrew to PATH in `fish`:
+
+> [!IMPORTANT]
+> on `macOS`, user folder is /Users/<username>
+> on `Linux`, user folder is /home/<username>
 
 ```shell
 echo >> /home/<username>/.config/fish/config.fish
