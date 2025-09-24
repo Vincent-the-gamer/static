@@ -1,0 +1,22 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: vpn-ssh, type: socks5, server: 127.0.0.1, port: 11080}
+  - {name: vpn-socks5-server, type: socks5, server: 192.168.1.121, port: 11080}
+proxy-groups:
+  - name: Himitsu
+    type: select
+    proxies:
+      - vpn-ssh
+      - vpn-socks5-server
+rules: 
+  - DOMAIN-SUFFIX,cfuture.shop,Himitsu
+  - DOMAIN-SUFFIX,pacs.com,Himitsu
+  - IP-CIDR,172.27.0.0/16,Himitsu
+  - IP-CIDR,172.28.0.0/16,Himitsu
+  - IP-CIDR,172.29.0.0/16,Himitsu
+  - IP-CIDR,188.188.1.0/24,Himitsu
