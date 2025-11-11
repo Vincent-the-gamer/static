@@ -6,7 +6,7 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: vpn-ssh, type: socks5, server: 127.0.0.1, port: 11080}
-  - {name: vpn-socks5-server, type: socks5, server: 192.168.1.103, port: 11080}
+  - {name: vpn-socks5-server, type: socks5, server: 192.168.1.102, port: 11080}
 proxy-groups:
   - name: Himitsu
     type: select
