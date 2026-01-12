@@ -18,10 +18,5 @@ proxy-groups:
 rules: 
   - DOMAIN-SUFFIX,cfuture.shop,Himitsu
   - DOMAIN-SUFFIX,pacs.com,Himitsu
-  - IP-CIDR,172.27.0.0/16,Himitsu
-  - IP-CIDR,172.28.0.0/16,Himitsu
-  - IP-CIDR,172.29.0.0/16,Himitsu
-  - IP-CIDR,172.16.0.0/16,Himitsu
-  - IP-CIDR,172.17.0.0/16,Himitsu
-  - IP-CIDR,172.18.0.0/16,Himitsu
+  - IP-CIDR,172.0.0.0/8,Himitsu
   - IP-CIDR,188.188.1.0/24,Himitsu
