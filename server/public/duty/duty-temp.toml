@@ -1,0 +1,21 @@
+#### 硬件单
+# 别问我为什么是「handware」，维保保这么定义的参数名称
+[[hardware]]
+handware_time = "2026-02-06 17:00"
+handware_records = "记录内容"
+process_description = "描述内容"
+result = "处理结果"
+
+#### 软件单
+[[software]]
+software_time = "2026-02-06 10:01"
+software_records = "记录内容"
+process_description = "描述内容"
+result = "处理结果"
+
+#### 遗留问题
+[[item]]
+problem = "测试"
+handover_man = ""
+handover_time = ""
+state = "S01"
