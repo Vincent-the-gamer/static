@@ -25,8 +25,8 @@ To add homebrew to PATH in `fish`:
 
 ```shell
 echo >> /home/<username>/.config/fish/config.fish
-echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/<username>/.config/fish/config.fish
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+echo 'eval "$(/home/<username>/.linuxbrew/bin/brew shellenv)"' >> /home/<username>/.config/fish/config.fish
+eval "$(/home/<username>/.linuxbrew/bin/brew shellenv)"
 ```
 
 ### For Chinese Users
