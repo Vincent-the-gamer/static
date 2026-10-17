@@ -6,6 +6,9 @@ Host for static files.
 
 ```
 https://cdn.jsdelivr.net/gh/Vincent-the-gamer/static@main/<path>
+
+# Chinese Mainland CDN Node:
+https://fastly.jsdelivr.net/gh/Vincent-the-gamer/static@main/<path>
 ```
 
 e.g. https://cdn.jsdelivr.net/gh/Vincent-the-gamer/static@main/brew/install-homebrew.sh
