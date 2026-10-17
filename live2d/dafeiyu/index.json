@@ -1,0 +1,87 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "dafeiyu.moc3",
+		"Textures": [
+			"textures/texture_00.png"
+		],
+		"Physics": "dafeiyu.physics3.json",
+		"DisplayInfo": "dafeiyu.cdi3.json",
+		"Motions": {
+			"Idle": [
+				{
+					"File": "motions/idle.motion3.json"
+				}
+			],
+			"Blink": [
+				{
+					"File": "motions/blink.motion3.json"
+				}
+			],
+			"Nod": [
+				{
+					"File": "motions/nod.motion3.json"
+				}
+			],
+			"Shake": [
+				{
+					"File": "motions/shake.motion3.json"
+				}
+			],
+			"TailSwing": [
+				{
+					"File": "motions/tailSwing.motion3.json"
+				}
+			],
+			"TapBody": [
+				{
+					"File": "motions/nod.motion3.json"
+				}
+			],
+			"": [
+				{
+					"File": "motions/idle.motion3.json"
+				},
+				{
+					"File": "motions/blink.motion3.json"
+				},
+				{
+					"File": "motions/nod.motion3.json"
+				},
+				{
+					"File": "motions/shake.motion3.json"
+				},
+				{
+					"File": "motions/tailSwing.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": [
+				"ParamMouthOpenY"
+			]
+		}
+	],
+	"HitAreas": [
+		{
+			"Name": "Head",
+			"Id": "ArtMeshFace"
+		},
+		{
+			"Name": "Body",
+			"Id": "ArtMeshTopwear"
+		}
+	]
+}
